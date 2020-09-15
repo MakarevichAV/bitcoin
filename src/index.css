@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active {
+    background: #394551;
+}
+
+.container {
+    min-height: calc(100vh - 60px);
+    background: #394551;
+}
+
+.recharts-wrapper {
+    background: #1a1d22;
+}

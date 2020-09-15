@@ -1,0 +1,39 @@
+.header {
+    min-height: 60px;
+    background: #1a1d22;
+}
+
+.menu {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 60px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.navItem {
+    font-size: 18px;
+    padding: 0 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    display: inline-block;
+    border-radius: 14px 14px 0 0;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background: url(./bitcoin.png) no-repeat center center / contain;
+}

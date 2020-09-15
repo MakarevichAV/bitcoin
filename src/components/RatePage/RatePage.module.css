@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    display: flex;
+    background: #727273;
+    border-radius: 8px;
+}
+
+.cell {
+    padding: 10px 20px;
+    min-width: 160px;
+}
+
+.leftCell {
+    border-radius: 8px 0 0 8px;
+}
+
+.rightCell {
+    border-radius: 0 8px 8px 0;
+}
+
+.title {
+    color: #b0b0b0;
+    margin-bottom: 35px;
+}
+
+.value {
+    color: white;
+    font-size: 26px;
+}
+
+.increment {
+    background: #659c2e;
+}
+
+.decrement {
+    background: #9c3f2e;
+}
