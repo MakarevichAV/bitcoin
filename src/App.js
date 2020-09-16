@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import Header from './components/Header/Header';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import RatePage from './components/RatePage/RatePage';
 import GraphPage from './components/GraphPage/GraphPage';
 import { getActualValue } from './redux/reducers/ratesReducer';
@@ -17,6 +17,7 @@ const App = () => {
             <Header />
             <Route path="/rate" render={() => <RatePage />} />
             <Route path="/graph" render={() => <GraphPage />} />
+            <Redirect to="/rate" />
         </div>
     );
 }
