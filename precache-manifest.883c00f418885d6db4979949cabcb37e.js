@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3681735f59887025048d46bbec25ef97",
+    "revision": "f2de434b490f5e8fa8f30254b9bafaf4",
     "url": "/bitcoin/index.html"
   },
   {
-    "revision": "de9e5c09a40e248b7abe",
+    "revision": "d6bea41dbf77ade72be6",
     "url": "/bitcoin/static/css/main.1992ee5d.chunk.css"
   },
   {
-    "revision": "f97d55cfbab574389581",
-    "url": "/bitcoin/static/js/2.13189761.chunk.js"
+    "revision": "1c7bcc1b088fd4f97eed",
+    "url": "/bitcoin/static/js/2.aaad1d32.chunk.js"
   },
   {
     "revision": "ca3cfcda77dc9f4f71fda9fdfcf14fb0",
-    "url": "/bitcoin/static/js/2.13189761.chunk.js.LICENSE.txt"
+    "url": "/bitcoin/static/js/2.aaad1d32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de9e5c09a40e248b7abe",
-    "url": "/bitcoin/static/js/main.ffcbbf94.chunk.js"
+    "revision": "d6bea41dbf77ade72be6",
+    "url": "/bitcoin/static/js/main.3296b3b5.chunk.js"
   },
   {
     "revision": "d7b90004dc23b19fbf21",
