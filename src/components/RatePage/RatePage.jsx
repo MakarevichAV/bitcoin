@@ -1,26 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import s from './RatePage.module.css';
+import { useSelector, useDispatch } from 'react-redux';
 
 const RatePage = () => {
-    const status = true; // придет в пропсах или из стора
+    const state = useSelector(state => state.quotations);
     return (
         <div className={`${s.content} container`}>
             <div className={s.table}>
-                <div className={`${s.cell} ${s.leftCell} ${status ? s.increment : s.decrement}`}>
+                <div className={`${s.cell} ${s.leftCell} ${state.increment ? s.increment : s.decrement}`}>
                     <p className={s.title}>current</p>
                     <p className={s.value}>
-                        <span>1 &#8383;</span> <br/> 
-                        <span>11326,12 $</span>
+                        <span>1 &#8383;</span> <br />
+                        <span>{state.newVal} $</span>
                     </p>
                 </div>
                 <div className={`${s.cell} ${s.rightCell}`}>
                     <p className={s.title}>past</p>
                     <p className={s.value}>
-                        <span>1 &#8383;</span> <br/> 
-                        <span>11322,08 $</span>
+                        <span>1 &#8383;</span> <br />
+                        <span>{state.postVal} $</span>
                     </p>
                 </div>
             </div>
+            {console.log(state.valuesArr)}
         </div>
     );
 }
